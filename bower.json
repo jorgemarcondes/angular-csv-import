@@ -13,6 +13,9 @@
         "csv",
         "import"
     ],
+    "main": [
+        "dist/angular-csv-import.min.js"
+      ],
     "ignore": [
         "source",
         "spec",
@@ -20,12 +23,12 @@
         ".gitignore",
         ".jshintignore",
         ".jshintrc",
-        "bower.json",
         "gruntfile.js",
         "package.json",
         "README.md"
     ],
     "dependencies": {
+        "angular": ">=1.2.18"
     },
     "devDependencies": {
     }
